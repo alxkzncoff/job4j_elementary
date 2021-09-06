@@ -8,5 +8,14 @@ public class ArrayDefinition {
         System.out.println(surnames.length);
         float[] price = new float[40];
         System.out.println(price.length);
+        String[] names = new String[4];
+        names[0] = "Aleksandr";
+        names[1] = "Sergey";
+        names[2] = "Nikolai";
+        names[3] = "Dmitrii";
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
