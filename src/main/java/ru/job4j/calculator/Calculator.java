@@ -7,13 +7,13 @@ public class Calculator {
         int six = 6;
         int four = 4;
         int five = 5;
-        int onePlusTwo = one + two;
-        int sixDivTwo = six / two;
-        int fiveMinusTwo = five - two;
-        int fourTimeTwo = four * two;
-        System.out.println(onePlusTwo);
-        System.out.println(sixDivTwo);
-        System.out.println(fiveMinusTwo);
-        System.out.println(fourTimeTwo);
+        int sum = one + two;
+        int div = six / two;
+        int diff = five - two;
+        int multi = four * two;
+        System.out.println(sum);
+        System.out.println(div);
+        System.out.println(diff);
+        System.out.println(multi);
     }
 }
